@@ -7,7 +7,12 @@ from amadeusgpt import app_utils
 from amadeusgpt.utils import validate_openai_api_key
 
 # Set page configuration
-st.set_page_config(layout="wide")
+st.set_page_config(
+    page_icon="🪰", 
+    page_title="UF AmadeusGPT", 
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
 app_utils.load_css()
 
 
